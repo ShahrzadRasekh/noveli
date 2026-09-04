@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+:root {
+  --noveli-cream: #f7f3ed;
+  --noveli-beige: #e9dfd2;
+  --noveli-dusty-rose: #c9a6a1;
+  --noveli-sage: #a9b3a0;
+  --noveli-lavender: #c8bfd2;
+  --noveli-ink: #302d2a;
+  --noveli-muted: #746d67;
+  --noveli-white: #fffdf9;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--noveli-cream);
+  color: var(--noveli-ink);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background: var(--noveli-dusty-rose);
+  color: white;
+}
